@@ -1,2 +1,2 @@
 # poly-cc
- ComputerCraft Scripts
+ ComputerCraft Scripts for CC:Tweaked, https://tweaked.cc/
