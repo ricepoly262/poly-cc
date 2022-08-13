@@ -46,9 +46,9 @@ polycore.getScreenSize = function()
     return {xmid,ymid,x,y}
 end
 
-polycore.drawText = function(x,y,text,x)
+polycore.drawText = function(x,y,text,c)
     if not screen then print("No Screen!") return false end
-    if not x then screen.setBackgroundColor(colors.black) end
+    if not c then screen.setBackgroundColor(colors.black) end
     screen.setTextColor(colors.white)
     screen.setCursorPos(x,y)
     screen.write(text)
