@@ -1,5 +1,8 @@
-tablepunch = require('tablepunch')
-bigfont = require("bigfont")
+-- Requires Advanced Peripherals
+-- https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
+
+tablepunch = require('tablepunch') -- poly-cc/lib/tablepunch.lua
+bigfont = require("bigfont") -- https://pastebin.com/3LfWxRWh (bigfont by Wojbie)
 
 xmid = 0
 ymid = 0

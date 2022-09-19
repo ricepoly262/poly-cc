@@ -1,3 +1,6 @@
+-- Requires Advanced Peripherals
+-- https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
+
 peripherals = peripheral.getNames()
 screen = peripheral.find("monitor")
 readers = {}

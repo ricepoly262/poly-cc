@@ -32,7 +32,7 @@ local function valuetostring(t,l)
 end
 
 
-polycore.TableToString = function(t)
+polytable.TableToString = function(t)
     local spacer = "        "
     local s = "table {\n"
 
@@ -50,4 +50,4 @@ polycore.TableToString = function(t)
     end
 end
 
-polycore.printTable = function(t) print(polycore.TableToString(t)) end
+polytable.printTable = function(t) print(polycore.TableToString(t)) end
